@@ -1,8 +1,9 @@
-//Librairies
-import { useState } from 'react'
+//Hooks
+import { useSliderStore } from '../../hooks/useSlider'
 
 export const Slider = () => {
-  const [value, setValue] = useState<number>(1)
+  const value = useSliderStore((state) => state.value)
+  const updateValue = useSliderStore((state) => state.setValue)
 
   return (
     <>
@@ -14,7 +15,7 @@ export const Slider = () => {
         max={10}
         step={1}
         value={value}
-        onChange={(e) => setValue(Number(e.target.value))}
+        onChange={(e) => updateValue(Number(e.target.value))}
       />
     </>
   )
