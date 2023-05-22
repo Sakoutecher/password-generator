@@ -51,7 +51,6 @@ export const PasswordGenerator = () => {
         verifySymbols(checkboxs)
       )
     )
-    console.log(checkboxs)
   }, [])
 
   useEffect(() => {
