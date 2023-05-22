@@ -5,6 +5,7 @@
 
 ### Added
 
+- 🔊 Update logs [[f70f032](https://github.com/Sakoutecher/password-generator/commit/f70f032b088532312cb144a677b324e1ee9cc9b6)]
 - ✨ Show toaster when copy password [[7418b3a](https://github.com/Sakoutecher/password-generator/commit/7418b3a77661b86717611f38d02d748810ede911)]
 - ✨ Add the toaster component [[290b9c2](https://github.com/Sakoutecher/password-generator/commit/290b9c2ebee9705c1969d6ae13d95545a4bbe4ed)]
 - ✨ UseToaster [[5c49bff](https://github.com/Sakoutecher/password-generator/commit/5c49bffba90befd6dcc84bb445f612ac0185b66f)]
@@ -28,6 +29,7 @@
 
 ### Changed
 
+- 🍱 Preview repo [[ac0a8e6](https://github.com/Sakoutecher/password-generator/commit/ac0a8e6614f328f1a4ef087625f5cbcf8e4aea17)]
 - ♻️ Use toaster component [[1d4ae8b](https://github.com/Sakoutecher/password-generator/commit/1d4ae8b37281f16480d6c347a92caf59b5611e83)]
 - 🔧 Translate value [[6ffa427](https://github.com/Sakoutecher/password-generator/commit/6ffa427fc8135abecd268684c01bd53c1258670e)]
 - ♻️ Default value [[ec53070](https://github.com/Sakoutecher/password-generator/commit/ec53070a30dddf3ac968821c1f172f916ffe3482)]
@@ -50,5 +52,9 @@
 ### Fixed
 
 - 🐛 Can unchecked when only one is selected [[658201f](https://github.com/Sakoutecher/password-generator/commit/658201fee2ddbee681ca1f057276b7f047fec57e)]
+
+### Miscellaneous
+
+- 📝 Readme [[ef8a549](https://github.com/Sakoutecher/password-generator/commit/ef8a54958f980d931026241d2b71a8c8c82c098f)]
 
 
