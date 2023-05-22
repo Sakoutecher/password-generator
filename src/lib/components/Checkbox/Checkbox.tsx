@@ -20,6 +20,9 @@ export const Checkbox: FC<CheckboxProps> = ({ label }) => {
 
   const handleClick = () => {
     if (isChecked) {
+      if (checkboxs.length === 1) {
+        return
+      }
       removeCheckboxs(label)
     } else {
       setCheckboxs(label.toUpperCase())
