@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       jetbrains: 'JetBrains Mono, sans-serif',
     },
-    extend: {},
+    extend: {
+      translate: {
+        '1/2': '-50%',
+      },
+    },
   },
   plugins: [],
 }
