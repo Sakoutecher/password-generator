@@ -16,14 +16,17 @@ import { verifySymbols } from '../../utils/verify'
 //Hooks
 import { useSliderStore } from '../../hooks/useSlider'
 import { useCheckboxStore } from '../../hooks/useCheckbox'
+import { useToasterStore } from '../../hooks/useToaster'
 
 export const PasswordGenerator = () => {
   const [generatedPassword, setGeneratedPassword] = useState<string>('')
   const lenght = useSliderStore((state) => state.value)
   const checkboxs = useCheckboxStore((state) => state.checkboxs)
+  const setActive = useToasterStore((state) => state.setActive)
 
   const copyClipboard = () => {
     navigator.clipboard.writeText(generatedPassword)
+    setActive()
   }
 
   const generatePassword = () => {
