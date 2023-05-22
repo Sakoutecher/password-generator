@@ -5,6 +5,11 @@
 
 ### Added
 
+- ✨ Show toaster when copy password [[7418b3a](https://github.com/Sakoutecher/password-generator/commit/7418b3a77661b86717611f38d02d748810ede911)]
+- ✨ Add the toaster component [[290b9c2](https://github.com/Sakoutecher/password-generator/commit/290b9c2ebee9705c1969d6ae13d95545a4bbe4ed)]
+- ✨ UseToaster [[5c49bff](https://github.com/Sakoutecher/password-generator/commit/5c49bffba90befd6dcc84bb445f612ac0185b66f)]
+- ➕ Framer-motion [[83deed3](https://github.com/Sakoutecher/password-generator/commit/83deed341c30a773ecd282245992d9140f6b2b05)]
+- 🔊 Update logs [[e19af64](https://github.com/Sakoutecher/password-generator/commit/e19af649c4ee732eb0e828c69f011177ca158aa6)]
 - ✨ Generate password [[c3c833e](https://github.com/Sakoutecher/password-generator/commit/c3c833ec585b9597c68169eebcbaf7ea501bd1d3)]
 - ✨ Function to verify checkboxs [[8c3d637](https://github.com/Sakoutecher/password-generator/commit/8c3d6379e28823f2a982181abff9124dc55b2c61)]
 - ✨ UseCheckbox [[4279a6e](https://github.com/Sakoutecher/password-generator/commit/4279a6e590897de22fb15594d63409655dff9633)]
@@ -23,6 +28,8 @@
 
 ### Changed
 
+- ♻️ Use toaster component [[1d4ae8b](https://github.com/Sakoutecher/password-generator/commit/1d4ae8b37281f16480d6c347a92caf59b5611e83)]
+- 🔧 Translate value [[6ffa427](https://github.com/Sakoutecher/password-generator/commit/6ffa427fc8135abecd268684c01bd53c1258670e)]
 - ♻️ Default value [[ec53070](https://github.com/Sakoutecher/password-generator/commit/ec53070a30dddf3ac968821c1f172f916ffe3482)]
 - ♻️ Min max input range [[8fd8e8b](https://github.com/Sakoutecher/password-generator/commit/8fd8e8ba218fdd24ce81b231db7a103de9fb97ab)]
 - ♻️ Use the usecheckboxstore [[a4a74d2](https://github.com/Sakoutecher/password-generator/commit/a4a74d237c2e1549c1e10d44dee14a1ef45bedf2)]
@@ -35,5 +42,13 @@
 - 💄 Background [[66ea82b](https://github.com/Sakoutecher/password-generator/commit/66ea82bd543280847cacd5ec253ef1ba5548691d)]
 - 🍱 Add gggrain.svg [[3056e7b](https://github.com/Sakoutecher/password-generator/commit/3056e7bdacdc29d2869b8530a01a072346015985)]
 - 🔧 Tailwind config [[cc16be3](https://github.com/Sakoutecher/password-generator/commit/cc16be34a790269cb85c128e38143e241a9ddda6)]
+
+### Removed
+
+- 🔥 Console.log [[4b05952](https://github.com/Sakoutecher/password-generator/commit/4b0595281b5252721c6050e1735e02fd0fe61b1c)]
+
+### Fixed
+
+- 🐛 Can unchecked when only one is selected [[658201f](https://github.com/Sakoutecher/password-generator/commit/658201fee2ddbee681ca1f057276b7f047fec57e)]
 
 
