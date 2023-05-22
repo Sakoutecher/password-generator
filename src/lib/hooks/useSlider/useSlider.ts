@@ -7,6 +7,6 @@ type useSliderStoreType = {
 }
 
 export const useSliderStore = create<useSliderStoreType>((set) => ({
-  value: 1,
+  value: 30,
   setValue: (value: number) => set(() => ({ value })),
 }))
