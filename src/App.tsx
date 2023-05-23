@@ -1,6 +1,7 @@
 //Components
 import { PasswordGenerator } from '#/PasswordGenerator'
 import { Toaster } from '#/Toaster'
+import { GithubButton } from '#/GithubButton'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     >
       <PasswordGenerator />
       <Toaster />
+      <GithubButton />
     </div>
   )
 }
