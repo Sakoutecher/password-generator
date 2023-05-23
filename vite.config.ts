@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '#': resolve(__dirname, './src/lib/components/'),
-      '~/': resolve(__dirname, './public/'),
+      '~': resolve(__dirname, './public/'),
     },
   },
 })
