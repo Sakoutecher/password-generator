@@ -1,10 +1,12 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-05-22)
+## 0.0.0 (2023-05-23)
 
 ### Added
 
+- ✨ GithubButton component [[0632967](https://github.com/Sakoutecher/password-generator/commit/0632967741bb300a7db493705ea46d047e561dff)]
+- 🔊 Update logs [[2faa117](https://github.com/Sakoutecher/password-generator/commit/2faa11794d705bd191b767aa65dcfffdead080c3)]
 - 🔊 Update logs [[f70f032](https://github.com/Sakoutecher/password-generator/commit/f70f032b088532312cb144a677b324e1ee9cc9b6)]
 - ✨ Show toaster when copy password [[7418b3a](https://github.com/Sakoutecher/password-generator/commit/7418b3a77661b86717611f38d02d748810ede911)]
 - ✨ Add the toaster component [[290b9c2](https://github.com/Sakoutecher/password-generator/commit/290b9c2ebee9705c1969d6ae13d95545a4bbe4ed)]
@@ -29,6 +31,8 @@
 
 ### Changed
 
+- ♻️ Use the githubbutton component [[02067e4](https://github.com/Sakoutecher/password-generator/commit/02067e4741dec23f2ad53c44e53268b40d0ea3af)]
+- 🍱 Github logo [[3c4e7e3](https://github.com/Sakoutecher/password-generator/commit/3c4e7e39bddb4c69cc4fd153d7312ae28db71042)]
 - 🍱 Preview repo [[ac0a8e6](https://github.com/Sakoutecher/password-generator/commit/ac0a8e6614f328f1a4ef087625f5cbcf8e4aea17)]
 - ♻️ Use toaster component [[1d4ae8b](https://github.com/Sakoutecher/password-generator/commit/1d4ae8b37281f16480d6c347a92caf59b5611e83)]
 - 🔧 Translate value [[6ffa427](https://github.com/Sakoutecher/password-generator/commit/6ffa427fc8135abecd268684c01bd53c1258670e)]
@@ -51,6 +55,7 @@
 
 ### Fixed
 
+- 🐛 Fix path [[a7f6851](https://github.com/Sakoutecher/password-generator/commit/a7f6851fa9c38d5eff7f3dc7ea7ad32028369248)]
 - 🐛 Can unchecked when only one is selected [[658201f](https://github.com/Sakoutecher/password-generator/commit/658201fee2ddbee681ca1f057276b7f047fec57e)]
 
 ### Miscellaneous
